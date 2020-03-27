@@ -75,15 +75,15 @@ class segundaFaze : Fragment() {
         }
 
         if(fazeViewModel.faze!!.fazeEscolha == 2){
-            textViewEvento.text = "Sem muita experiencia voce tenta imobilizar a criatura ou apenas tentar dificultar a moviementação dela de alguma forma, bem as" +
-                    "pernas são um otimo alvo entao sem nem pensar 2 vezes voce corre em direção a criatura mas um inexperado acontece, ela parece que percebe sua intenção" +
-                    "e rapidamente vira o rosto para voce so que a mesma parece não estar olhando diretamente para voce o que lhe faz se distrair e um ataque frontal é dirigido a voce" +
-                    "sem muito tempo de preparado voce apenas coloco o seu escudo em sua frente e segura o ataque, mas o impacto e forte e o faz cair andar para tras alem disso braço" +
-                    "tambem não parece muito legal apos essa rapida defesa. A criatura parece não se mover, esta como se estivesse procurando por algo, talvez uma forma de fugir?" +
-                    "voce? bem voce esta bem na frente dela então não faria muito sentido, logo voce pensa, causar alguma distração ja que em questão de velocidade voce perderia" +
+            textViewEvento.text = "Sem muita experiencia voce tenta imobilizar a criatura ou apenas tentar dificultar a moviementação dela de alguma forma, bem as " +
+                    "pernas são um otimo alvo entao sem nem pensar 2 vezes voce corre em direção a criatura mas um inexperado acontece, ela parece que percebe sua intenção " +
+                    "e rapidamente vira o rosto para voce so que a mesma parece não estar olhando diretamente para voce o que lhe faz se distrair e um ataque frontal é dirigido a voce " +
+                    "sem muito tempo de preparado voce apenas coloco o seu escudo em sua frente e segura o ataque, mas o impacto e forte e o faz cair andar para tras alem disso braço " +
+                    "tambem não parece muito legal apos essa rapida defesa, melhor não depender muito dele. A criatura parece não se mover, esta como se estivesse procurando por algo, talvez uma forma de fugir? " +
+                    "voce? bem voce esta bem na frente dela então não faria muito sentido, logo voce pensa, causar alguma distração ja que em questão de velocidade voce perderia " +
                     "logo uma abertura seria essencial para voce"
-            RbEscolha1.text = "tacar o escudo em direção a criatura como distração e em seguida deferir uma estocada direta em seu peito"
-            RbEscolha2.text = "Bater a espada no escudo no intuito de atrair a criatura para uma armadilha"
+            RbEscolha1.text = "Tacar o escudo em direção a criatura afim de obter uma frecha e em seguida deferir uma estocada direta em seu peito"
+            RbEscolha2.text = "Usar o terreno a seu favor e então preparar uma armadilha para a criatura"
 
             btnAvançar.setOnClickListener {
                 if (!RbEscolha1.isChecked && !RbEscolha2.isChecked ) {
@@ -95,11 +95,11 @@ class segundaFaze : Fragment() {
                 } else {
                     if (RbEscolha1.isChecked){
 
-                        fazeViewModel.faze!!.fazeEscolha = 4
+                        fazeViewModel.faze!!.fazeEscolha = 7
                         findNavController().navigate(R.id.terceiraFaze)
                     }else{
 
-                        fazeViewModel.faze!!.fazeEscolha = 3
+                        fazeViewModel.faze!!.fazeEscolha = 8
                         findNavController().navigate(R.id.terceiraFaze)
                     }
                 }
