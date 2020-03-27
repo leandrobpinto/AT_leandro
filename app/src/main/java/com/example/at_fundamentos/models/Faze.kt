@@ -7,10 +7,10 @@ class Faze : Serializable {
     var fazeEscolha = 0
     var barraVida =  MutableLiveData<Int>().apply {  value =  100}
 
-    fun perderVida(){
-
-        barraVida.apply { value -= 10 }
-    }
+//    fun perderVida(){
+//
+//        barraVida.apply { value -= 10 }
+//    }
 
 //    val currentName: MutableLiveData<Int>
 //        get() {

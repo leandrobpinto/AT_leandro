@@ -49,6 +49,7 @@ class primeiraFase : Fragment() {
 
                     fazeViewModel.faze!!.fazeEscolha = 2
                     findNavController().navigate(R.id.segundaFaze)
+                    //perder vida
                 }
             }
         }
