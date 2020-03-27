@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">at_fundamentos</string>
+    <string name="historia">Voce é um pequeno aventureiro, que mora em Clamire no reino de Kaliatar, voce deseja ser um grande aventureiro, ficar mais forte e derrubar
+        o rei de Kaliatar, o motivo disso tudo? Bem, digamos que a vila em que nasceu sofre uma forte opressão do rei e seu desejo e derruba-lo para libertar seu povo,
+        isso o leva ate a escola de caveliros Hall of Valhalla, uma das melhores escolas de cavaleiros templarios do reino, mas o caminho até la e devasto de desafios
+        não achou quer seria tao facil ne? a escola fica situada numa região repleta de monstros então nada mais justo que os sobreviventes que chegarem até a escola
+        sejam recrutados, bem seu objetivo nada mais simples do que chegar ate a escola vivo monstro mesmo que seja por um fio e com a cabeça de algum monstro. Boa sorte
+    </string>
+    <string name="primeiroEvento"> Voce tem uma pequena armadura de couro batido, com uma espada leve de uma mão feita de aluminio e um pequeno escudo de madeira
+        revestido de um pouco de metal, são 4 dias ate chegar na escola,  o 1 dia voce não enfrenta nenhum problema na floresta entao decide descansar, contudo
+        logo na manhã seguinte voce percebe algumas pegas estranhas, mas segue em frente com cuidado, apos algumas horas voce vê um monstro branco, com grandes olhos
+        vermelhos e uma pupila de cor um tanto quanto duvidosa, com o corpo todo errugado como a de um velho e pequenas garras.
+
+        Sem muita experiencia voce decide partir para cima... qual escolha voce vai eleger?
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

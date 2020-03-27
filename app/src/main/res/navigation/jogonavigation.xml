@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jogonavigation"
+    app:startDestination="@id/primeiraFase">
+
+    <fragment
+        android:id="@+id/primeiraFase"
+        android:name="com.example.at_fundamentos.fragments.primeiraFase"
+        android:label="fragment_primeira_fase"
+        tools:layout="@layout/fragment_primeira_fase" />
+    <fragment
+        android:id="@+id/segundaFaze"
+        android:name="com.example.at_fundamentos.fragments.segundaFaze"
+        android:label="segundaFaze" />
+    <fragment
+        android:id="@+id/terceiraFaze"
+        android:name="com.example.at_fundamentos.fragments.terceiraFaze"
+        android:label="terceiraFaze" />
+</navigation>
